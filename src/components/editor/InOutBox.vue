@@ -4,7 +4,7 @@
       <div class="panel-heading">
         <span>Input</span>
         <a v-on:click="onCopyInput" id="copy-input"> 
-          <i class="fa fa-paperclip" />
+          <i class="fa fa-files-o" />
         </a>
       </div>
       <textarea class="textbox" id="test-input" rows="2" wrap="off"
@@ -16,7 +16,7 @@
       <div class="panel-heading">
         <span>Output</span>
         <a v-on:click="onCopyOutput" id="copy-output"> 
-          <i class="fa fa-paperclip"/>
+          <i class="fa fa-files-o"/>
         </a>
       </div>
       <pre id="output">{{this.$store.state.output}}</pre>
