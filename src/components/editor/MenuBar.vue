@@ -43,7 +43,9 @@
           <div class="logoMenu">
             <login-button></login-button>
             Made with <i class="fa fa-heart" aria-hidden="true" style="color: #e31d3b"></i> by
+            <a href="https://codingblocks.com/" target="_blank">
             <img src="../../assets/cb_logo_light.png">
+            </a>
           </div>
         </div>
         <div class="panel-heading second-row">
